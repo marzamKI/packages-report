@@ -1,3 +1,8 @@
+#' ---
+#' output: github_document
+#' date: "`r format(Sys.Date())`"
+#' ---
+
 .libPaths() # Get paths for where packages are installed
 
 #install.packages("tidyverse")
