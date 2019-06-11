@@ -9,3 +9,4 @@ ipt <- installed.packages() %>%
   as_tibble() %>% # Tidyverse dataframe that give a nice print method
   select(Package, LibPath, Priority, Built)
 ipt 
+
