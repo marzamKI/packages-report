@@ -5,9 +5,6 @@
 
 .libPaths() # Get paths for where packages are installed
 
-#install.packages("tidyverse")
-#install.packages("here")
-
 library(tidyverse)
 
 ipt <- installed.packages() %>% 
